@@ -10,7 +10,7 @@ body {
     clear: both;
 
 }
-.posts,.one, .dos{
+.posts,.one, .dos, .tres{
     background: white;
     width: 500px;
     height: 400px;
@@ -25,7 +25,7 @@ body {
 .palabras
 {
     padding: 10px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .numeros
