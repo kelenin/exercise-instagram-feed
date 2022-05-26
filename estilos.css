@@ -1,14 +1,14 @@
 body {
-    background-color: lightgrey;
+    background: rgb(211, 211, 208);
 }
 
-.content{
+.contents{
     width: 47%;
     height: 664px;
     margin: auto;
     display: flex;
 }
-.post{
+.posts{
     background: white;
     margin-left: 150px;
     margin-right: 150px;
