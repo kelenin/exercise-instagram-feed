@@ -1,3 +1,17 @@
 body {
     background-color: lightgrey;
 }
+
+.content{
+    width: 47%;
+    height: 664px;
+    margin: auto;
+    display: flex;
+}
+.post{
+    background: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    margin-top: 40px;    
+}
