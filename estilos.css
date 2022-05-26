@@ -3,17 +3,16 @@ body {
 }
 
 .contents{
-    width: 47%;
-    height: 664px;
+    width: 100%;
+    height: 500px;
     margin: auto;
     display: flex;
 }
 .posts{
     background: white;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 30px;
-    margin-top: 40px;    
+    width: 500px;
+    height: 400px;
+    margin:auto;
 }
 
 .photo-header {
@@ -22,6 +21,13 @@ body {
 
 .palabras
 {
-    padding: 15px;
+    padding: 10px;
     font-size: 15px;
+}
+
+.numeros
+{
+    padding-top: 10px;
+    font-size: 13px;
+    margin-left: 70%;
 }
