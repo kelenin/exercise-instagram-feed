@@ -10,11 +10,12 @@ body {
     clear: both;
 
 }
-.posts{
+.posts,.one, .dos{
     background: white;
     width: 500px;
     height: 400px;
-    margin:auto;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 .photo-header {
