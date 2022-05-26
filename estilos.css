@@ -33,3 +33,13 @@ body {
     font-size: 13px;
     margin-left: 70%;
 }
+
+.photo-footer
+{
+    margin: 15px;
+}
+
+.photo-footer p{
+    text-align: justify;
+    font-size: 16px;
+}
