@@ -7,6 +7,8 @@ body {
     height: 500px;
     margin: auto;
     display: flex;
+    clear: both;
+
 }
 .posts{
     background: white;
