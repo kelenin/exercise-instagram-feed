@@ -19,3 +19,9 @@ body {
 .photo-header {
     display: flex;
 }
+
+.palabras
+{
+    padding: 15px;
+    font-size: 15px;
+}
