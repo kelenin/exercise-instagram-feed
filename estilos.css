@@ -5,51 +5,40 @@ body {
 
 .contents{
     width: 100%;
-    height: 500px;
+    height: 800px;
     margin: auto;
-
+    overflow: hidden;
+    position: relative;
 }
 
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .posts{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgb(211, 211, 208);
+    width: 100%;
     animation: cambio 5s infinite alternate;
+    position: absolute;
 }
 
-.one {
-    background: white;
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
+ul {
+    
+    list-style-type: none;
+    padding: 0px;
+    width: 30%;
 
 }
 
-
-.dos {
+li {
+    display: block;
     background: white;
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    margin-bottom: 50px;
-}
-
-.tres {
-    background: white;
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    margin-bottom: 50px;
 }
 
 .photo-header {
@@ -80,10 +69,11 @@ h1 {
 }
 
 @keyframes cambio {
-    0% {margin-bottom: 0;}
-    50% {margin-top: 0;}
+    /*20% {margin-bottom: -50%;}
+    55% {margin-bottom: -50%;}*/
 
-    55% {margin-bottom: -100%;}
-    100% {margin-top: -100%;}
+
+    20% {margin-bottom: -10%;}
+    55% {margin-top: -43%;}
 }
 
