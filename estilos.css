@@ -1,20 +1,50 @@
 body {
-    background: rgb(211, 211, 208);
+    background: white;
+
 }
 
 .contents{
     width: 100%;
     height: 500px;
     margin: auto;
-    display: flex;
 
 }
 
 h1 {
+    display: flex;
     justify-content: center;
-    padding: 0;
+    align-items: center;
 }
-.posts,.one, .dos, .tres{
+.posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(211, 211, 208);
+    animation: cambio 5s infinite alternate;
+}
+
+.one {
+    background: white;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+
+.dos {
+    background: white;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.tres {
     background: white;
     width: 500px;
     height: 400px;
@@ -49,14 +79,11 @@ h1 {
     font-size: 16px;
 }
 
-.one {
-    background-repeat: no-repeat;
-  }
+@keyframes cambio {
+    0% {margin-bottom: 0;}
+    50% {margin-top: 0;}
 
-  .dos {
-    background-repeat: no-repeat;
-  }
+    55% {margin-bottom: -100%;}
+    100% {margin-top: -100%;}
+}
 
-  .tres {
-    background-repeat: no-repeat;
-  }
