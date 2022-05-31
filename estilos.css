@@ -24,7 +24,7 @@ h1 {
     align-items: center;
     background: rgb(211, 211, 208);
     width: 100%;
-    animation: cambio 5s infinite alternate;
+    animation: cambio 4s infinite alternate;
     position: absolute;
 }
 
